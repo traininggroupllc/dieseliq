@@ -15,7 +15,9 @@
             	<nav class="breadcrumb">
             		<a href="<?php echo esc_url(home_url());?>">Home</a> » <?php the_title(); ?>
             	</nav>
-            </div>
+			</div>
+			
+			<?php get_sidebar(); ?>
 
             <div id="content_top" style="height: auto !important;">
 				<div class="region region-content-top" style="height: auto !important;">
