@@ -1,0 +1,197 @@
+/*
+Theme Name: Diesel IQ
+Theme URI: http://dieseliq.com
+Author: the mintlogix team
+Author URI: #
+Description: Diesel IQ is dedicated to the service, repair and maintenance of the Power Stoke and Cummins Diesel engines. This website contains information needed to correctly operate and maintain your Cummins Diesel engine as recommended by Cummins Engine Company, Inc.
+Version: 1.0
+Requires at least: 4.4
+Requires PHP: 5.2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dieseliq
+*/
+#main .field-items .field-item ul li {
+    margin-left: 20px;
+}
+.wp-block-table table tbody tr th {
+    text-align: center !important;
+}
+.wp-block-table table tbody tr td {
+    text-align: center !important;
+}
+#main .field-items .field-item img {
+    margin: 0 auto;
+    padding: 20px 0;
+    display: block;
+}
+.wp-block-table {
+    overflow-x: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}
+ins {
+        background: transparent;
+        text-decoration: none;
+    }
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+input#edit-mail {
+    width: 100% !important;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    margin: 0px !important;
+    color: #D8000C;
+    background-color: rgba(255, 64, 64, 0.1);
+    border: 1px solid;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  margin: 0px !important;
+  color: #28a745;
+  background-color: #28a74521;
+  border: 1px solid;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.wpcf7-validates-as-required.wpcf7-not-valid, 
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7-not-valid,
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.form-control.wpcf7-not-valid
+{
+    border: 1px solid !important;
+    border-color: rgba(255, 64, 64, 1) !important;
+}
+.wpcf7-not-valid-tip {
+  display:none !Important;
+}
+p.no-result-found {
+    text-align: center;
+    font-style: italic;
+    padding-top: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.field-items .apss-social-share {
+    display: none;
+}
+figure.wp-block-table.is-style-regular {
+    margin: 0 !important;
+}
+.pagination-wrap {
+    clear: both;
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.pagination-wrap span.current {
+    background: #ea1d10;
+    color: #fff;
+}
+.pagination-wrap .page-numbers {
+    padding: 10px;
+    background: transparent;
+    margin-right: 5px;
+    border: 1px solid;
+    box-sizing: border-box;
+    color: #000;
+}
+.pagination-wrap a, .pagination-wrap span {
+    font-size: 13px;
+}
+div#notfound h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+
+div#notfound p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+div#notfound {
+    padding: 50px 0px;
+}
+h2.page-title.filtertitle {
+    padding: 15px 0px;
+}
+.d-none{
+  display: none;
+}
+.resultpart {
+  padding-top: 30px;
+}
+div#response h3 {
+    margin-top: 25px;
+}
+
+form#filter button {
+    padding: 10px 20px;
+}
+select#enginecat, select#partcat {
+    padding: 8px 30px 8px 5px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    border-color: #dbdbdb;
+    cursor: pointer;
+    color: #333;
+    user-select: none;
+}
+p.noresult {
+    padding-top: 6px;
+    font-size: 14px;
+    color: #5e5959;
+    font-weight: 600;
+    font-style: italic;
+}
+.mt-20{
+  margin-top: 20px !important;
+}
+.textwidget.custom-html-widget {
+    display: inline-block;
+}
