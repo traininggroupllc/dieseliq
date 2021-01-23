@@ -2107,3 +2107,75 @@ li.comment {
 	}
 
 }
+
+
+
+/* custom css */
+figure.wp-block-table.is-style-regular {
+    margin: 0 !important;
+}
+@media screen and (min-width: 768px) {
+	figure.wp-block-table.is-style-regular table tr td:first-child {
+		width: 10%
+	}
+}
+@media screen and (max-width: 767px) {
+	figure.wp-block-table.is-style-regular table tr td:first-child {
+		width: 20%
+	}
+	figure.wp-block-table.is-style-regular table tr td:nth-child(2) {
+		width: 40%
+	}
+}
+
+.wp-block-table table tbody tr th {
+    text-align: center !important;
+}
+.wp-block-table table tbody tr td {
+    text-align: center !important;
+}
+.wp-block-table {
+    overflow-x: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.wp-block-table table {
+    width: 100%;
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-right: none;
+    background: #fff;
+}
+td {
+    padding: 5px 10px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+td, th {
+    line-height: 2;
+    vertical-align: top;
+}
+.wp-block-table {
+    overflow-x: auto;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+
+
+select#enginecat, select#partcat {
+    /* padding: 8px 30px 8px 5px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    border-color: #dbdbdb;
+    cursor: pointer;
+    color: #333; */
+    user-select: none;
+}
+
+.d-none {
+    display: none;
+}
