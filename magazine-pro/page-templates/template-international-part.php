@@ -18,7 +18,9 @@
       				<a href="<?php echo get_page_link(69);?>" title="Power Stroke part and part number finder">Power Stroke Parts Finder</a> » 
       				Ford Power Stroke to International Part Number Cross Reference
       			</nav>
-            </div>
+			</div>
+			
+			<?php get_sidebar(); ?>
 
             <div id="content_top" style="height: auto !important;">
 				<div class="region region-content-top" style="height: auto !important;">

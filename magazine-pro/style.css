@@ -2166,7 +2166,7 @@ td, th {
 
 
 
-select#enginecat, select#partcat {
+select#enginecat, select#partcat, #searchform input#s {
     padding: 8px 30px 8px 5px;
     border: 1px solid transparent;
     border-radius: 7px;
@@ -2176,7 +2176,7 @@ select#enginecat, select#partcat {
 	user-select: none;
 	margin-bottom: 10px;
 }
-#filter button {
+#filter button, form input.btn {
 	border-radius: 7px;
 	padding: 15px 30px;
 	margin-bottom: 10px;
@@ -2185,3 +2185,121 @@ select#enginecat, select#partcat {
 .d-none {
     display: none;
 }
+.apss-social-share.apss_font_awesome_five {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#slider{
+	background-color:#555!important;;
+	border-bottom:2px solid #ccc;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	margin:0 0 2em;
+	position:relative;
+}
+#slider-wrap img{
+	border:medium none;
+	display:block;
+	height:auto;
+	padding:0;
+	max-width:100%;
+}
+#slider-wrap a:hover img{background:none;border:none;}
+#slider-wrap a{display:block;padding:11px 11px 10px;}
+#slider-wrap .featured-text{color:#FFFFFF;padding:0 11px 10px;}
+#slider-wrap .featured-text a{display:inline;padding:0;}
+
+#content #nav-slider{padding:0;}#nav-slider img{max-width:33px;height:auto;width:100%;}#nav-slider .nav-previous,#nav-slider .nav-next{cursor:pointer;display:block;max-width:33px;opacity:0.7;position:absolute;top:106px;width:6%;z-index:99;}#nav-slider .nav-previous:hover,#nav-slider .nav-next:hover{opacity:10;}#nav-slider .nav-previous{left:11px;}#nav-slider .nav-next{right:11px;}#breadcrumbs{font-size:11px;}#preface-area{padding-bottom:5px;}
+#slider-wrap img {
+    border: medium none;
+    /* display: block; */
+    height: auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.pagination-wrap {
+    clear: both;
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center!important;
+}
+.pagination-wrap span.current {
+    background: #ea1d10;
+    color: #fff;
+}
+.pagination-wrap .page-numbers {
+    padding: 10px;
+    background: transparent;
+    margin-right: 5px;
+    border: 1px solid;
+    box-sizing: border-box;
+    color: #000;
+}
+.pagination-wrap a, .pagination-wrap span {
+    font-size: 13px;
+}
+
+ul.inline, ul.links.inline {
+	display: inline;
+    padding-left: 0;
+    margin-left: 0;
+    clear: both;
+}
+ul.inline li {
+    display: inline;
+    list-style-type: none;
+}
+.links li a {
+    background-color: #E7E5E3;
+    color: #100100;
+    padding: 4px 5px;
+    border-radius: 4px;
+    text-shadow: 1px 1px #fff;
+    font-weight: normal;
+}
+.field-name-field-tags {
+    margin: 0 0 10px 0;
+}
+.field-name-field-tags a {
+    /* -moz-transition: opacity 0.2s ease-in-out 0s; */
+    background: none repeat scroll 0 0 #999;
+    color: #FFFFFF !important;
+    line-height: 1em !important;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    opacity: 0.9;
+    padding: 4px 6px;
+}
+
+@media screen and (max-width:1060px){
+	#wrapper{max-width:900px;}
+	#nav-slider .nav-previous,#nav-slider .nav-next{top:94px;}
+}
+@media screen and (max-width:960px){
+	#wrapper{max-width:708px;}
+	#nav-slider .nav-previous,#nav-slider .nav-next{top:137px;}
+}
+@media screen and (max-width:767px){
+	#nav-slider .nav-previous,#nav-slider .nav-next{top:82px;}
+	#slider{margin-bottom:1em;}}
+@media screen and (max-width:479px){
+	#nav-slider .nav-previous,#nav-slider .nav-next{top:57px;}
+}
+@media screen and (max-width:319px){
+	#nav-slider .nav-previous,#nav-slider .nav-next{top:45px;}
+}
+
+@media screen and (max-width:1060px){#wrapper{max-width:900px;}#nav-slider .nav-previous,#nav-slider .nav-next{top:94px;}}@media screen and (max-width:960px){#wrapper{max-width:708px;}#main #content{margin:0 3%;width:auto;}#nav-slider .nav-previous,#nav-slider .nav-next{top:137px;}#main #sidebar{float:none;margin:0 3%;width:auto;}#header #main-menu > ul.menu a{padding:0 0.83em;}#preface-block-wrap.in1 .preface-block{float:none;margin-right:0;width:auto;}#preface-block-wrap.in2 .preface-block{float:none;margin-right:0;width:auto;}#preface-block-wrap.in3 .preface-block{float:none;margin-right:0;width:auto;}#footer-block-wrap.in1 .footer-block{float:none;margin-right:0;width:auto;}#footer-block-wrap.in2 .footer-block{float:none;margin-right:0;width:auto;}#footer-block-wrap.in3 .footer-block{float:none;margin-right:0;width:auto;}}@media screen and (max-width:767px){#wrapper{max-width:480px;}body{padding:0;}body,input,textarea{font-size:13px;}#header,#footer-bottom{border-radius:0;}#main,#footer-block-wrap{padding-top:1em;}#header hgroup{padding:5.30625em 0 2em 0;text-align:center;}#site-name{font-size:28px;line-height:38px;}#header #site-logo{padding:5.30625em 0 2em 0;text-align:center;}#header .social-profile{top:2em !important;}#main-menu > ul{font-size:12px;}#nav-slider .nav-previous,#nav-slider .nav-next{top:82px;}#slider,.block,#footer-block-wrap .footer-block{margin-bottom:1em;}blockquote{margin:0;}blockquote.pull{font-size:17px;}#site-name{padding:0;}#site-name,#site-slogan{margin-right:0;}.alignleft,.alignright{float:none;margin-left:0;margin-right:0;}#navigation #main-menu{padding:14px 0;}#main-menu > ul.menu{display:none;}#main-menu > ul.menu li{border:none;float:none;text-align:center;}.tinynav{background-image:none;background-color:transparent;background-position:right center;background-repeat:no-repeat;border:none;color:#fff;display:block;margin-bottom:0;margin-left:auto;margin-top:0;overflow:hidden;width:100%;}.tinynav option{color:#000;}.social-profile{float:none;text-align:center;}.social-profile ul li{display:inline-block;float:none;margin:0 0 10px 10px;}#bottom .copyright,#bottom .credit{display:block;margin-left:3%;float:none;text-align:center;width:97%;}}@media (max-device-width:650px){.tinynav{background-image:url(https://dieseliq.com/sites/all/themes/responsive_blog/images/select-arrow.png);}}@media screen and (max-width:479px){#wrapper{max-width:320px;}#site-name{font-size:26px;line-height:36px;}#site-slogan{font-size:12px;}#nav-slider .nav-previous,#nav-slider .nav-next{top:57px;}.comment .attribution,.comment .comment-text{display:inline-block;}#bottom .copyright,#bottom .credit{font-size:9px;}}@media screen and (max-width:319px){#wrapper{max-width:100%;}#wrapper{margin-top:0;}#header{border-top:none;}input[type="text"]{width:98%;}#nav-slider .nav-previous,#nav-slider .nav-next{top:45px;}}
+
+
+

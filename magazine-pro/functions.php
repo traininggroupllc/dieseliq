@@ -106,6 +106,20 @@ function magazine_enqueue_scripts() {
 		magazine_responsive_menu_settings()
 	);
 
+	wp_enqueue_script(
+		genesis_get_theme_handle() . '-custom-script-s',
+		get_stylesheet_directory_uri() . '/js/custom-script.js',
+		[ 'jquery' ],
+		genesis_get_theme_version(),
+		true
+	);
+
+	wp_localize_script(
+		genesis_get_theme_handle() . '-custom-script',
+		'custom-script-s',
+		magazine_responsive_menu_settings()
+	);
+
 }
 
 /**
@@ -328,6 +342,21 @@ function magazine_remove_entry_meta() {
 remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
 add_action( 'genesis_entry_footer', 'genesis_add_id_to_global_exclude', 9 );
 add_action( 'genesis_entry_footer', 'genesis_after_entry_widget_area' );
+
+
+
+// custom post type search result template
+function template_chooser($template)   
+{    
+  global $wp_query;   
+  $post_type = get_query_var('post_type');   
+  if( $wp_query->is_search && $post_type == 'stroke-parts' )   
+  {
+    return locate_template('search-stroke-parts.php');  //  redirect to archive-search.php
+  }   
+  return $template;   
+}
+add_filter('template_include', 'template_chooser');    
 
 
 
